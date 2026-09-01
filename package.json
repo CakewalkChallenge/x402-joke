@@ -1,0 +1,19 @@
+{
+  "name": "x402-joke-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal x402 v2 server + client on Stellar: a pay-per-call /joke endpoint",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "@x402/core": "^2.24.0",
+    "@x402/express": "^2.24.0",
+    "@x402/fetch": "^2.24.0",
+    "@x402/stellar": "^2.24.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
